@@ -1,0 +1,90 @@
+
+    @media screen and (max-width: 375px) {
+  /* comes into effect for screens less than or equal to 375 pixels */
+  #nf {
+    width: 320px ;
+     position: absolute;
+       left: 5%;
+       bottom:-10%;
+
+}
+    }  
+    
+    body{
+     background-color: hsl(217, 54%, 11%);
+     text-align: left;
+     color:hsl(215, 51%, 70%);
+     font-family: 'Outfit', sans-serif;
+     
+    }
+     /*gives the card shape*/
+    .base {
+      font-size: 15px;
+      text-align: left;
+      background-color: hsl(216, 50%, 16%);
+      width: 320px;
+       border: 1px solid hsl(216, 50%, 16%);
+       border-radius: 15px;
+       margin: 100px 5px;
+       padding: 4px;
+       position: absolute;
+       left: 40%;
+       /*gives the card or box shadow */
+       box-shadow: -10px 10px 5px 16px hsl(217, 65%, 12%);
+    }
+
+     /*hover change*/
+    .base:hover{
+      transform:scale(1.1)
+    }
+
+    .content{
+       padding: 10px;
+     }
+     
+    .base a {
+      color: hsl(215, 51%, 70%);
+       align-items:  left;
+      }
+
+       /*changes color of all links when hoverd over*/
+      .base a:hover{
+        color: hsl(178, 100%, 50%);
+      }
+
+       img{
+         height: 300px;
+         width: 300px;
+         border-radius: 12px;
+       }
+
+       #stats{
+          font-size: 18px;
+       }
+
+       /*responsible of the resizing of the image*/
+       #stats img{
+         height: 20px;
+         width: 15px;
+        
+       }
+
+       #end{
+         font-size: 18px;
+       }
+
+        /*responsible of the resizing of the image*/
+       #end img{
+          height: 40px;
+         width: 40px;
+       }
+
+    h3{
+      font-size: 20px;
+    }
+
+     p{
+      color: hsl(215, 51%, 70%);
+      font-size: 18px;
+    }
+   
